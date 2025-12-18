@@ -1109,36 +1109,6 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-midnight-950 border-t border-white/10 py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <div className="w-8 h-8 bg-gradient-to-br from-Kantama-500 to-Kantama-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">e</span>
-              </div>
-              <span className="text-white font-display font-bold">Kantama</span>
-            </div>
-            
-            <div className="flex items-center space-x-6 text-sm">
-              <a href="/tietosuoja" className="text-slate-400 hover:text-white transition-colors">
-                Tietosuojaseloste
-              </a>
-              <a href="/kayttoehdot" className="text-slate-400 hover:text-white transition-colors">
-                Käyttöehdot
-              </a>
-              <a href="mailto:myynti@Kantama.fi" className="text-slate-400 hover:text-white transition-colors">
-                myynti@Kantama.fi
-              </a>
-            </div>
-            
-            <p className="text-slate-500 text-sm mt-4 md:mt-0">
-              © {new Date().getFullYear()} Kantama. Kaikki oikeudet pidätetään.
-            </p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
